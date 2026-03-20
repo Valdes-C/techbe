@@ -34,6 +34,7 @@ export default function Basics(){
     )
 }
 
+// @ts-ignore
 function Item({name}){
     const handleClick = ()=>{
         alert(`Click on ${name}!`);
@@ -65,6 +66,7 @@ function NextComponent(){
     )
 }
 
+// @ts-ignore
 function PropsComponent({name, children}){
 
     return (

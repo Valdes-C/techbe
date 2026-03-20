@@ -4,10 +4,12 @@ import { createRoot } from "react-dom/client";
 
 import "./index.css";
 
-import Basics from "./basics.tsx";
+import {UseEffectComponent} from "./use-effect.tsx";
+
+
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Basics/>
+    <UseEffectComponent/>
   </StrictMode>,
 );
