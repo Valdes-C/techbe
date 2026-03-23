@@ -7,12 +7,13 @@ import "./index.css";
 
 
 
-import {Counter} from "./state.tsx";
+
+import {Main} from "./optimization.tsx";
 
 
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Counter />
+    <Main/>
   </StrictMode>,
 );
