@@ -6,14 +6,12 @@ import "./index.css";
 
 
 
-
-
-import {Main} from "./optimization.tsx";
+import {Counter} from "@/state.tsx";
 
 
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Main/>
+    <Counter/>
   </StrictMode>,
 );
