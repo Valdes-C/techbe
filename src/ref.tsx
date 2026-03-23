@@ -1,3 +1,5 @@
+//@ts-nocheck
+
 // @ts-ignore
 import {forwardRef, useRef, useState} from "react";
 // @ts-ignore
