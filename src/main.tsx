@@ -11,6 +11,7 @@ import HomePage from "@/components/pages/home-page.tsx";
 
 
 
+
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <HomePage />
