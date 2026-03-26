@@ -10,7 +10,8 @@ import {Swiper,SwiperSlide} from "swiper/react";
 import {EffectFade, Navigation} from "swiper/modules";
 import {slides} from "@/components/data/home-data.ts";
 import {Button} from "@/components/ui/button.tsx";
-import {ArrowRightIcon, MoveLeftIcon, MoveRightIcon} from "lucide-react";
+import {ArrowRightIcon} from "lucide-react";
+import SwiperButton from "@/components/ui/swiper-button.tsx";
 
 
 export default function Hero(){
@@ -21,18 +22,18 @@ export default function Hero(){
                 className="swiper swiper-initialized swiper-horizotal swiper-autoheight"
                 modules={[Navigation,EffectFade]}
                 effect="fade"
-                loop={true}
+                loop
                 navigation={{
-                    prevEl: '#silder-prev',
-                    nextEl: '#silder-next',
+                    prevEl: '#slider-prev',
+                    nextEl: '#slider-next',
                 }}
-                autoHeight={true}
+                autoHeight
             >
                 {
                     slides.map(slide =>
                         <SwiperSlide key={slide.id} className="swiper-slide z-10 min-h-[400px] h-[calc(100vh-100px)]!">
                             <div className="absolute inset-0 -z-1 after:absolute bg-center bg-cover
-                            after:top-0 after: left-0 after:-z-1 after:h-full after:w-full after:bg-linear-(--gradient3)
+                            after:top-0 after:left-0 after:-z-1 after:h-full after:w-full after:bg-linear-(--gradient3)
                             after:opacity-90 animate-scale-in"
                             style={{backgroundImage: `url(${slide.bgSrc})`}}
                             />
@@ -57,14 +58,8 @@ export default function Hero(){
                     )
                 }
             </Swiper>
-            <button id="slider-prev" className="absolute top-[75%] lg:top[53%] left-[2%] size-14 flex justify-center items-center border
-            border-primary z-10 cursor-pointer bg-transparent rounded-full hover:bg-linear-(--gradient)">
-                <MoveLeftIcon className="stroke-border" />
-            </button>
-            <button id="slider-next" className="absolute top-[75%] lg:top[53%] right-[2%] size-14 flex justify-center items-center border
-            border-primary z-10 cursor-pointer bg-transparent rounded-full hover:bg-linear-(--gradient)">
-                <MoveRightIcon className="stroke-border" />
-            </button>
+            <SwiperButton direction="left" className="top[53%] left-[2%] lg:top[53%]" />
+            <SwiperButton direction="right" className="top[53%] right-[2%] lg:top[53%]" />
         </section>
     )
 }

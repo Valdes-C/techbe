@@ -1,10 +1,11 @@
 import {features} from "@/components/data/home-data.ts";
+import Section from "@/components/ui/section.tsx";
 
 
 export default function Features() {
 
     return (
-        <section className="overflow-hidden py-14 lg:py-28">
+        <Section>
             <div className="container">
                     <div className="grid grid-cols-1 place-content-center place-items-center gap-7 md:grid-cols-2 xl:grid-cols-3">
                         {
@@ -32,7 +33,7 @@ export default function Features() {
                         }
                     </div>
             </div>
-        </section>
+        </Section>
     )
 
 }
