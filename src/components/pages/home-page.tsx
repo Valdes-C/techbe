@@ -5,6 +5,8 @@ import Intro from "@/components/homepage/intro.tsx";
 import 'wow.js/css/libs/animate.css'
 import Hero from "@/components/homepage/hero.tsx";
 import Testimonials from "@/components/homepage/testsimonials.tsx";
+import Pricing from "@/components/homepage/pricing.tsx";
+import Copyright from "@/components/layout/copyright.tsx";
 
 export default function HomePage () {
     return (
@@ -14,6 +16,8 @@ export default function HomePage () {
             <Features />
             <Intro />
             <Testimonials />
+            <Pricing />
+            <Copyright/>
         </main>
     )
 }
