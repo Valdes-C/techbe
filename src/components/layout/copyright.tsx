@@ -1,22 +1,23 @@
-export default function Copyright(){
-
+export default function Copyright() {
     return (
         <div className="bg-primary py-4">
             <div className="container">
-                <div className="grid-cols-2 items-center lg:grid">
-                    <div>
-                        <p className="text-white">
-                            <a href="/">Techbe</a>{' '}{new Date().getFullYear()}© Wszelkie prawa zastrzeżone
-                        </p>
-                    </div>
-                    <div className="mt-5 lg:mt-0 lg:col-right">
-                        <a href="/" className="mr-7 text-white">
-                            Regulamin</a>
+                <div className="flex flex-col items-start gap-3 lg:flex-row lg:items-center lg:justify-between">
+                    <p className="text-white">
+                        <a href="/">Techbe</a>{" "}
+                        {new Date().getFullYear()}© Wszelkie prawa zastrzeżone
+                    </p>
+
+                    <div className="flex flex-wrap gap-4">
                         <a href="/" className="text-white">
-                            Polityka prywatności</a>
+                            Regulamin
+                        </a>
+                        <a href="/" className="text-white">
+                            Polityka prywatności
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }

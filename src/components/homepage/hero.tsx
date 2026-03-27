@@ -17,7 +17,7 @@ import SwiperButton from "@/components/ui/swiper-button.tsx";
 export default function Hero(){
 
     return (
-        <section className="clip-path1 overflow-hidden">
+        <section className="clip-path1 overflow-hidden relative">
             <Swiper
                 className="swiper swiper-initialized swiper-horizotal swiper-autoheight"
                 modules={[Navigation,EffectFade]}
@@ -58,8 +58,8 @@ export default function Hero(){
                     )
                 }
             </Swiper>
-            <SwiperButton direction="left" className="top[53%] left-[2%] lg:top[53%]" />
-            <SwiperButton direction="right" className="top[53%] right-[2%] lg:top[53%]" />
+            <SwiperButton direction="left" className="top-[53%] left-[2%] lg:top-[53%]" />
+            <SwiperButton direction="right" className="top-[53%] right-[2%] lg:top-[53%]" />
         </section>
     )
 }
