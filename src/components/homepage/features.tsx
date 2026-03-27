@@ -1,4 +1,4 @@
-import {features} from "@/components/data/home-data.ts";
+import {features} from "@/data/home-data.ts";
 import Section from "@/components/ui/section.tsx";
 
 

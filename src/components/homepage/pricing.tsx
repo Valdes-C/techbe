@@ -1,5 +1,5 @@
 import Header from "@/components/ui/header.tsx";
-import { pricingPlans } from "@/components/data/home-data.ts";
+import { pricingPlans } from "@/data/home-data.ts";
 import Section from "@/components/ui/section.tsx";
 import { Button } from "../ui/button";
 import { ArrowDownIcon } from "lucide-react";

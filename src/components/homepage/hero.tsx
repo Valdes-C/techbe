@@ -8,7 +8,7 @@ import 'swiper/css/effect-fade';
 
 import {Swiper,SwiperSlide} from "swiper/react";
 import {EffectFade, Navigation} from "swiper/modules";
-import {slides} from "@/components/data/home-data.ts";
+import {slides} from "@/data/home-data.ts";
 import {Button} from "@/components/ui/button.tsx";
 import {ArrowRightIcon} from "lucide-react";
 import SwiperButton from "@/components/ui/swiper-button.tsx";

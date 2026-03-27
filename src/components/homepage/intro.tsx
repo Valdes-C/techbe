@@ -80,7 +80,7 @@ export default function Intro (){
                             </div>
                             <div className="flex ml-1.5 items-center gap-2">
                                 <img
-                                    src="/public/icons/sign-icon.png"
+                                    src="/icons/sign-icon.png"
                                     alt=""
                                     width={20}
                                     height={20}
@@ -91,7 +91,7 @@ export default function Intro (){
                             </div>
                             <div className="flex ml-1.5 items-center gap-2">
                                 <img
-                                    src="/public/icons/sign-icon.png"
+                                    src="/icons/sign-icon.png"
                                     alt=""
                                     width={20}
                                     height={20}

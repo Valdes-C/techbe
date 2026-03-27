@@ -1,7 +1,7 @@
 export const slides = [
     {
         id: 1,
-        bgSrc: "/public/images/baner1.jpg",
+        bgSrc: "/images/baner1.jpg",
         subtitle: "Najlepsze rozwiązanie dla IT",
         title1: "Dokumentacja finansów",
         title2: "Dla Twojego biznesu",
@@ -9,7 +9,7 @@ export const slides = [
     },
     {
         id: 2,
-        bgSrc: "/public/images/baner2.jpg",
+        bgSrc: "/images/baner2.jpg",
         subtitle: "Najlepsze rozwiązanie dla IT",
         title1: "Dokumentacja finansów",
         title2: "Dla Twojego biznesu",
@@ -17,7 +17,7 @@ export const slides = [
     },
     {
         id: 3,
-        bgSrc: "/public/images/baner3.jpg",
+        bgSrc: "/images/baner3.jpg",
         subtitle: "Najlepsze rozwiązanie dla IT",
         title1: "Dokumentacja finansów",
         title2: "Dla Twojego biznesu",

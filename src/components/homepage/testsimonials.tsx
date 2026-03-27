@@ -5,7 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import Header from '../ui/header';
 import Section from '../ui/section';
 import SwiperButton from '../ui/swiper-button';
-import {testimonials} from "@/components/data/home-data.ts";
+import {testimonials} from "@/data/home-data.ts";
 
 export default function Testimonials() {
     return (
